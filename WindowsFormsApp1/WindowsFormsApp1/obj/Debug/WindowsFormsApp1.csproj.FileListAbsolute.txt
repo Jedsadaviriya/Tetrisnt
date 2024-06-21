@@ -38,3 +38,13 @@ C:\Github\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 C:\Github\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Github\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Github\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Janjao\OneDrive - bwd 365\Dokumente\GitHub\Tetrisnt\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

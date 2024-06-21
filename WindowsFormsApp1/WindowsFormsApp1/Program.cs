@@ -346,7 +346,7 @@ namespace WindowsFormsApp1
             timer1.Start();
             // beginning of game
             blockpicker();
-            
+
             UpdateGameBoard();
             drawblock(startx, starty);
             UpdateGameBoard();
@@ -378,7 +378,7 @@ namespace WindowsFormsApp1
             startscreenimage.SizeMode = PictureBoxSizeMode.StretchImage;
 
             startscreenimage.Image = Properties.Resources.Homescreen;
-            
+
         }
         void startbutton_Click(object sender, EventArgs e)
         {
@@ -386,7 +386,7 @@ namespace WindowsFormsApp1
             this.Controls.Remove(quitbutton);
             this.Controls.Remove(restartbutton);
             this.Controls.Remove(startscreenimage);
-            
+
 
             levelselect();
         }
@@ -563,7 +563,7 @@ namespace WindowsFormsApp1
             string Endhighscore = FinalHighScore.ToString();
             finalhighscorep.Text = String.Format($"Highscore: {Endhighscore}");
             finalhighscorep.Refresh();
-            
+
         }
         private void Finalscorev()
         {
@@ -579,7 +579,7 @@ namespace WindowsFormsApp1
             string Endscore = FinalScore.ToString();
             finalscorep.Text = String.Format($"Score: {Endscore}");
             finalscorep.Refresh();
-            
+
         }
         private void InitializeGameOver()
         {
@@ -589,11 +589,11 @@ namespace WindowsFormsApp1
             this.Controls.Remove(highscore);
             this.Controls.Remove(linecount);
             this.Controls.Remove(levelcount);
-            if(Highscore >= FinalHighScore)
+            if (Highscore >= FinalHighScore)
             {
                 FinalHighScore = Highscore;
             }
-            
+
             FinalScore = Score;
             ShowGameOverScreen();
 
@@ -607,7 +607,7 @@ namespace WindowsFormsApp1
                     PictureBox pictureBox1 = new PictureBox();
                     pictureBox1.Width = CellSize;
                     pictureBox1.Height = CellSize;
-                    pictureBox1.Left =80 + x * CellSize;
+                    pictureBox1.Left = 80 + x * CellSize;
                     pictureBox1.Top = y * CellSize;
                     pictureBox1.BorderStyle = BorderStyle.FixedSingle;
                     System.Drawing.Color color = GetCombinedColor(x, y);
@@ -634,7 +634,7 @@ namespace WindowsFormsApp1
         {
             string finalscore = Score.ToString();
             scoreboard.Text = String.Format($"Score {finalscore}");
-            if(Score > Highscore)
+            if (Score > Highscore)
             {
                 Updatehighscore();
             }
@@ -686,18 +686,18 @@ namespace WindowsFormsApp1
         }
         private void UpdateLevelcount()
         {
-            if(onelevelup >= 10)
+            if (onelevelup >= 10)
             {
                 Level += 1;
                 onelevelup = 0;
             }
-            
+
             UpdateTimerInterval();
             UpdateLevel();
         }
         private void UpdateTimerInterval()
         {
-            if(timer1.Interval > 0)
+            if (timer1.Interval > 0)
             {
                 //Choose Speed
                 timer1.Interval = 1000 - (Level * 100);
@@ -1842,7 +1842,7 @@ namespace WindowsFormsApp1
         bool AllowMoveRight = true;
         private void CheckCollision()
         {
-            if(chosenblock == Oblock)
+            if (chosenblock == Oblock)
             {
                 for (int y = starty; y <= starty + 1; y++)
                 {
@@ -2181,7 +2181,7 @@ namespace WindowsFormsApp1
                             {
                                 AllowMoveRight = false;
                             }
-                            
+
                             else
                             {
                                 AllowMoveRight = true;
@@ -2688,11 +2688,11 @@ namespace WindowsFormsApp1
         int rotation = 5;
         private void Rotate()
         {
-            if(rotation > 5)
+            if (rotation > 5)
             {
                 rotation = 2;
             }
-            else if(rotation < 2)
+            else if (rotation < 2)
             {
                 rotation = 5;
             }
@@ -2719,7 +2719,7 @@ namespace WindowsFormsApp1
 
         object chosenblock = null;
 
-        private void blockpicker()
+        public void blockpicker()
         {
             clearnextblock();
             Random rnd = new Random();
@@ -2772,8 +2772,14 @@ namespace WindowsFormsApp1
                     break;
             }
             Debug.WriteLine($"The BLocks are {blocktype} and {nextblock}");
-             drawnextblock();
+            drawnextblock();
         }
+
+        private void nextBlockPreview()
+        {
+            
+        }
+
         private void initializenextblock()
         {
             for (int y = 0; y < nextblocklimit; y++)
